@@ -32,3 +32,7 @@ def test_example2():
 
 def test_negative_match():
     assert 0 == solution(')(')
+
+
+def test_unopened():
+    assert 0 == solution('}')
